@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Викторина ко Дню Победы</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logot.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Overpass+Mono:wght@300..700&family=Rubik+Mono+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- <div id="historical-info">
+        <h2>Великая Отечественная война: Подвиг советского народа</h2>
+        <p>
+            Великая Отечественная война (1941-1945) стала одним из самых тяжелых и кровопролитных периодов в истории человечества. 
+            Советский Союз понес огромные потери, но проявил невероятное мужество и стойкость, сыграв решающую роль в победе над фашизмом.
+        </p>
+        <p>
+            В первые годы войны советский народ столкнулся с жестоким наступлением немецких войск. Блокада Ленинграда, битва за Москву, Сталинградская битва – 
+            эти и другие сражения стали символами героизма и самопожертвования. Советские солдаты и партизаны проявляли невероятную храбрость, 
+            защищая свою Родину.
+        </p>
+        <p>
+            Не менее важен был вклад тружеников тыла. Женщины, старики и дети работали на заводах и фабриках, обеспечивая фронт оружием и боеприпасами. 
+            Колхозники трудились в поле, чтобы обеспечить страну продовольствием. 
+        </p>
+        <p>
+            Победа в Великой Отечественной войне стала возможной благодаря единству и самоотверженности всего советского народа. 
+            Эта победа – напоминание о важности мира, свободы и человеческого достоинства.
+        </p>
+    </div> -->
+    <div class="container">
+        <video autoplay loop muted>
+            <source src="video/background.mp4" type="video/mp4">
+        </video>
+        <h1 class="headtitle">Викторина ко Дню Победы</h1>
+
+        <label for="name">Ваше имя:</label>
+        <input type="text" class="name" id="name" name="name"><br><br>
+
+        <div id="quiz">
+            <h2 id="question">Вопрос</h2>
+            <div id="options"></div>
+            <div id="medal-container"> </div>
+            <div id="incorrectAnswers"></div>
+        </div>
+
+        <div id="result"></div>
+        <div id="incorrectAnswers"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
